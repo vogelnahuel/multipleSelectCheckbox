@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
+    <title>Custom selectCheckbox</title>
+</head>
+<body>
+    <div class="selectbox">
+        <div class="select" id="select">
+            <div class="contenido-select">
+                <h1>Estado</h1>
+               
+                <div class="ContenedorInput">
+                    <input placeholder="Seleccioná el estado" disabled class="input" type="text" value="" id="valorAmodificar"></button>
+                    <img class="flotarImg" src="flecha.svg"/>
+                </div>
+            </div>
+        </div>
+        <div class="opciones" id="opciones">
+
+            <div class="contenido-opcion">
+                <input class="checkboxInput" type="checkbox" id="Todos"  value="" />
+                <label class="labelCheckBox" for="Todos">Todos</label>
+            </div>
+            <div class="contenido-opcion">
+                <input class="checkboxInput" type="checkbox" id="sinAsignar" value="Sin asignar" />
+                <label class="labelCheckBox" for="sinAsignar">Sin asignar</label>
+            </div>
+            <div class="contenido-opcion"> 
+                <input class="checkboxInput" type="checkbox" id="enRetiro" value="En retiro" />
+                <label class="labelCheckBox" for="enRetiro">En retiro</label>
+            </div>
+            <div class="contenido-opcion">
+                <input class="checkboxInput" type="checkbox" id="enPuntoDeRetiro" value="En punto de retiro" />
+                <label class="labelCheckBox" for="enPuntoDeRetiro">En punto de retiro</label>
+            </div>
+            <div class="contenido-opcion">
+                <input class="checkboxInput" type="checkbox" id="Retirado" value="Retirado" />
+                <label class="labelCheckBox" for="Retirado">Retirado</label>
+            </div>
+            <div class="contenido-opcion">
+                <input class="checkboxInput" type="checkbox" id="enLugarDeEntrega" value="En lugar de entrega"/>
+                <label class="labelCheckBox" for="enLugarDeEntrega">En lugar de entrega</label>
+            </div>
+            <div class="contenido-opcion">
+                <input class="checkboxInput" type="checkbox" id="Entregado" value="Entregado" />
+                <label class="labelCheckBox" for="Entregado">Entregado</label>
+            </div>
+            <div class="contenido-opcion">
+                <input class="checkboxInput" type="checkbox" id="enDevolucion" value="En devolución"/>
+                <label class="labelCheckBox" for="enDevolucion">En devolución</label>
+            </div>
+            <div class="contenido-opcion">
+                <input class="checkboxInput" type="checkbox" id="DevueltoAOrigen" value="Devuelto a origen"/>
+                <label class="labelCheckBox" for="DevueltoAOrigen">Devuelto a origen</label>
+            </div>
+            <div class="contenido-opcion">
+                <input class="checkboxInput" type="checkbox" id="Siniestrado" value="Siniestrado" />
+                <label class="labelCheckBox" for="Siniestrado">Siniestrado</label>
+            </div>
+            <div class="contenido-opcion">
+                <input class="checkboxInput" type="checkbox" id="Cancelada" value="Cancelada"/>
+                <label class="labelCheckBox" for="Cancelada">Cancelada</label>
+            </div>
+
+        </div>
+    </div>
+    
+
+    <script src="test.js"></script>
+</body>
+</html>

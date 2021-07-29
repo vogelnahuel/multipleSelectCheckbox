@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.contenido-select h1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 0.0025em;
+    color: #4D4D4D;
+}
+
+.input{
+    border: 0;
+    outline: none;
+    border-bottom: 1px solid #828282;
+    width: 278px;
+    cursor: pointer;
+    background-color: white;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 21px;
+    letter-spacing: 0.005em;
+    color: #BDBDBD;
+}
+.flotarImg{
+    position: relative;
+    left: -18px;
+}
+
+.opciones{
+    background-color: white;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 11px;
+    width: 252px;
+    height: 410px;
+    padding: 15px;
+    display: none;
+    margin-top: 4px;
+}
+.ContenedorInput{
+    cursor: pointer;
+}
+.contenido-opcion{
+    display: flex;
+    margin-bottom: 12px;
+  
+}
+.checkboxInput{
+    border: 1px solid #BDBDBD;
+    border-radius: 2px;
+    width: 20px;
+    height: 20px;
+    
+}
+.labelCheckBox{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 21px;
+    letter-spacing: 0.005em;
+    color: #4D4D4D;
+    margin-left: 13px;
+    margin-top: 4px;
+}
+#contenidoMostrado{
+    margin-top: 20px;
+    display: relative;
+}
+
+.seleccionadoInputColor::-webkit-input-placeholder {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 21px;
+    letter-spacing: 0.005em;
+    color: #000000;
+ }
